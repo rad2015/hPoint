@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> :root style </title>
+    <style>
+        :root {
+            --bg-color: #2300e8;
+            --text-color: #fff;
+            --font-family:굴림체;
+        }
+
+     
+
+        div a {
+            font-family: var(--font-family);
+            display: block;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            text-decoration: none;
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        div a:hover {
+            background-color: #211082;
+        }
+
+        div a:focus {
+            background-color: #211082;
+        }
+    </style>
+</head>
+
+<body>
+    <div><a href="#">로그인</a></div>
+    <div><a href="#">로그인</a></div>
+    <div><a href="#">로그인</a></div>
+    <div><a href="#">로그인</a></div>
+    <div><a href="#">로그인</a></div>
+</body>
+
+</html>
